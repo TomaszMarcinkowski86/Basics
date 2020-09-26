@@ -1,2 +1,3 @@
-# repetitionBasics
-# Basics
+
+# Basics of JAVA
+# Powtórka podstaw JAVY

@@ -1,4 +1,4 @@
-import java.util.SortedMap;
+
  // Typy danych
 public class Lekcja02Typy {
 
@@ -14,6 +14,7 @@ public class Lekcja02Typy {
 
         String text = "Hello";
         String text2 = new String();
+
         System.out.println(text + text2);
 
         //boolean
@@ -54,5 +55,6 @@ public class Lekcja02Typy {
         // stala - stale  dużyc liter dowolny typ słówko final
 
         final int STALA = 200;
+        System.out.println(STALA);
    }
 }
