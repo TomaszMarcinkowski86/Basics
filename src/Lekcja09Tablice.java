@@ -31,9 +31,9 @@ public class Lekcja09Tablice {
         }
         //foreach pętla obiektowa
 
-        for (int i: tab2) {
+        for (int item: tab2) {
 
-            System.out.println(i);
+            System.out.println(item);
 
 
         }
