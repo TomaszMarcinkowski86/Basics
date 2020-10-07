@@ -11,8 +11,8 @@ public class Lekcja01Scanner {
         System.out.print("Podaj określenie swojej ulubionej firmy: ");
         okreslFirme=scanner.nextLine();
 
-       System.out.println("3D Pro " + okreslFirme);
-       System.out.printf("3D Pro %s %d" , okreslFirme, 23); // %s Sting, %d int
+       System.out.println("xxx " + okreslFirme);
+       System.out.printf("xx %s %d" , okreslFirme, 23); // %s Sting, %d int
 
     }
 }

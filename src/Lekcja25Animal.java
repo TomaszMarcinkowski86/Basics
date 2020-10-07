@@ -1,4 +1,4 @@
- public class Lekcja25Animal {
+ public class Lekcja25Animal extends Lekcja25Abstract{
 
     public void dajGlos(){
         System.out.println("Grrrr");
@@ -8,5 +8,8 @@
     }
 
 
-
-}
+     @Override
+     public void dajGlosAbstract() {
+         System.out.println("hau hau");
+     }
+ }

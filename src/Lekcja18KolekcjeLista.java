@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Lekcja18KolekcjeLista {
 
@@ -11,6 +12,7 @@ public class Lekcja18KolekcjeLista {
 
         ArrayList list = new ArrayList();
         list.add(animal1);
+        list.add(animal2);
         list.add(animal2);
         list.add(animal3);
         list.add(animal4);
@@ -56,6 +58,20 @@ public class Lekcja18KolekcjeLista {
         }
 
         System.out.println(list.size());
+
+        // linkedList
+        System.out.println("Listy duplikują wartości");
+        LinkedList<String> lista = new LinkedList<>();
+        lista.add("Lodz");
+        lista.add("Poznań");
+        lista.add("Poznań");
+        lista.add("Poznań");
+        lista.add("Warszawa");
+        lista.add("Uć");
+
+        for (String e: lista){
+            System.out.println(e);
+        }
 
 
 

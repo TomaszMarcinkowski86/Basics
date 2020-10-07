@@ -7,19 +7,7 @@ public class Lekcja19KolekcjeMapSet {
 
     public static void main(String[] args) {
 
-// linkedList
-        System.out.println("Listy duplikują wartości");
-        LinkedList<String> lista = new LinkedList<>();
-        lista.add("Lodz");
-        lista.add("Poznań");
-        lista.add("Poznań");
-        lista.add("Poznań");
-        lista.add("Warszawa");
-        lista.add("Uć");
 
-        for (String e: lista){
-            System.out.println(e);
-        }
         System.out.println();
         System.out.println("---------hashMap---klucz - wartość-------");
 
